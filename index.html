@@ -1,46 +1,89 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>This is my Test Page</title>
-	</head>
-	<body>
-		<header>
-			<h1> This is my header</h1>
-		</header>
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>Cool shit</li>
-				<li>About</li>
-			</ul>
-		</nav>
-
-		<main>
-		        <!-- It contains an article -->
-			<article>
-				<h2>Article heading</h2>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-				
-				<h3>subsection</h3>
-				
-				<p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-				
-				<p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-				
-				<h3>Another subsection</h3>
-				
-				<p>Done viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-				
-				<p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-			</article>
-		</main>
-
-		<footer>
-			<p>©Copyright 2050 by nobody. All rights reversed.</p>
-		</footer>
-
-	</body>
+    <head>
+        <title>JBlogs</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="wow.min.js"></script>
+        <script src="jquery.stellar.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $(window).stellar();
+            });
+            
+            new WOW().init();
+        </script>
+    <body>
+        <div class="header">
+            <div class="header-title">
+                JBlogs.
+            </div>
+            <div class="header-link" id="selected" onclick='window.location.href="https://jblogs.neocities.org/"'>
+                Blog
+            </div>
+            <div class="header-link" onclick='window.location.href="https://jblogs.neocities.org/about/"'>
+                About
+            </div>
+            <div class="header-link" onclick='window.location.href="https://jblogs.neocities.org/gallery/"'>
+                Gallery
+            </div>
+        </div>
+        <div class="opening-image" data-stellar-background-ratio="0.35"></div>
+        <div class="opening-image-text" data-stellar-ratio="0.6">
+                Welcome to JBlogs
+            </div>
+        <div class="main-content">
+            <div class="jumbotron">
+                <div class="main-content-title">
+                    B L O G
+                    <hr>
+                </div>
+            </div>
+            <div class="blog wow fadeInRight">
+                Hey!<br>Sorry I haven't posted in like 4 days, I've just been really busy.<br><br>I haven't done anything in the past few days, just played games and getting everything set up with the PC. I have been trying to fix an issue where the computer won't turn off - it was due to the WIFI card so I will probably get a TP-Link .<br><br>I am now on my school holidays but it is so boring when there is nothing to do, it's too cold to go out so all I can really do is stay indoors which gets really boring after a week. I also have to revise as i'm doing my GCSE's, so there is very little fun to be had other than to game or watch TV.<br><br>Anyway, i'm going to sleep cause I am really, really tired so I'll try to post tomorrow!
+                
+                <div class="blog-sign wow fadeInRight" data-wow-duration="1.5s">
+                   - Josh 20/02/2017
+                </div>
+            </div>
+            <div class="blog wow fadeInLeft">
+                Well I managed to get my new PC setup last night so I can post today!<br><br>Today is our second to last day of this half-term so I'll break up on Friday. On Saturday, Wolverhampton Wonderers (who I support) will be playing Chelsea in the FA cup which I am going to see! I am really excited!<br><br>If you are interested in the specs of my pc, here they are : i5 7600k CPU<br>GeForce GTX 1060 6gb GPU<br>750W FSP 80+ Silver PSU<br>Gigabyte GA-Z270 Gaming K3 Motherboard<br>Seagate 1TB Firecuda SSHD<br><br>I going to do some random stuff so I'll probably post tomorrow.
+                
+                <div class="blog-sign wow fadeInLeft" data-wow-duration="1.5s">
+                   - Josh 16/02/2017
+                </div>
+            </div>
+            <div class="blog wow fadeInRight">
+                Hey!<br><br>Well I’m in business studies and it is so boring so I decided to post something to pass the time. Our teacher has a migraine or something so we have a supply teacher and have to revise.<br><br>Anyway, My PC is coming today so probably won’t post tomorrow since I will be setting it up! If you are interested in the specs, I’ll post them soon.<br><br>I have to go to lunch now so I’ll see you soon!
+                
+                <div class="blog-sign wow fadeInRight" data-wow-duration="1.5s">
+                   - Josh 15/02/2017
+                </div>
+            </div>
+            <div class="blog wow fadeInLeft">
+                Sup.<br><br> Well today was alright, I had media so that was cool. At the minute, we are making silent films. Today, we filmed four shots and they came out really well. I managed to edit a little today so I will try to get way more done on Thursday - which is my next lesson.<br><br>Something BIG is happening tomorrow, MY NEW PC IS COMING! I am so excited!<br><br>Anyway, I am going to design the gallery now so yeah - Bye!
+                
+                <div class="blog-sign wow fadeInLeft" data-wow-duration="1.5s">
+                   - Josh 14/02/2017
+                </div>
+            </div>
+            <div class="blog wow fadeInRight">
+                Well this is my first post so I better introduce myself. So, my name Josh and I like to make and design websites as a hobby. I will post whenever I can – I’ll try to post every day; I probably won't though! Anyway, another hobby I endorse myself in is photography as I love media and want to improve my cinematography and just to generally get more comfortable with handling cameras. If you are interested in my works - then you can find them in the gallery.
+                <div class="blog-sign wow fadeInRight" data-wow-duration="1.5s">
+                   - Josh 13/02/2017
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
+
+
